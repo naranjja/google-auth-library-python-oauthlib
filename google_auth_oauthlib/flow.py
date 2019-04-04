@@ -366,7 +366,7 @@ class InstalledAppFlow(Flow):
         return self.credentials
 
     def run_local_server(
-            self, host='localhost', port=8080,
+            self, host='localhost', port=8090,
             authorization_prompt_message=_DEFAULT_AUTH_PROMPT_MESSAGE,
             success_message=_DEFAULT_WEB_SUCCESS_MESSAGE,
             open_browser=True,
